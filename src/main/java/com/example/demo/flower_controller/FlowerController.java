@@ -1,6 +1,5 @@
 package com.example.demo.flower_controller;
 
-import com.example.demo.flower_properties.Flower;
 import com.example.demo.flower_properties.type.Chamomile;
 import com.example.demo.flower_properties.type.Rose;
 import com.example.demo.flower_properties.type.Tulip;
