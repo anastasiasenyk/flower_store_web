@@ -1,9 +1,8 @@
 package com.example.demo.clientserver.delivery;
 
-public class PostDeliveryStrategy {
+public class PostDeliveryStrategy  extends DeliveryStrategy{
 
+    public PostDeliveryStrategy(){
 
-
-
-
+    }
 }
