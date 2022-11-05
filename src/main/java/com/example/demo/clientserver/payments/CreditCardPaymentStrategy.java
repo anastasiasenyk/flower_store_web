@@ -1,4 +1,5 @@
 package com.example.demo.clientserver.payments;
 
-public class CreditCardPaymentStrategy {
+public class CreditCardPaymentStrategy implements Payment{
+
 }
