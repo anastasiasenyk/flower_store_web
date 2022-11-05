@@ -39,6 +39,9 @@ public class Order implements ClientOrder {
 
     public void setPaymentStrategy(Payment strategy){
         payment = strategy;
+        if (payment.getPaid() >= price){
+            delivery.setDelivery_status(true);
+        }
     }
 
     public void setDeliveryStrategy(DeliveryStrategy strategy){
